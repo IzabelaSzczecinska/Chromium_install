@@ -3,7 +3,7 @@
   sudo apt update && sudo apt upgrade
 
 # Instalacja dockera:
-sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y 
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 sudo apt-get update
